@@ -3,7 +3,17 @@
   padding-bottom: 64px;
 }
 
+/* DOM order matters for non-static styles */
+.perspectiveEffect {
+  position: fixed;
+  width: 100%;
+  top: 60%;
+  bottom: 0;
+  background-color: hsl(195, 20%, 86%);
+}
+
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
